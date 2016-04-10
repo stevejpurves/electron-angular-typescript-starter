@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "outDir": "app"
+    },
+    "files": [
+        "typings/browser/ambient/angular/index.d.ts",
+        "typings/browser/ambient/es6-shim/index.d.ts",
+        "typings/browser/ambient/jquery/index.d.ts",
+        "typings/browser/ambient/node/index.d.ts",
+        "typings/browser/definitions/es6-promise/index.d.ts",
+        "src/client/app/app.ts",
+        "src/client/app/vendor.ts",
+        "src/start.ts"
+    ],
+    "filesGlob": [
+        "./typings/browser/**/*.ts",
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "gulpfile.js",
+        "node_modules",
+        "src/server",
+        "typings/main",
+        "typings/main.d.ts"
+    ],
+    "compileOnSave": false
+}
